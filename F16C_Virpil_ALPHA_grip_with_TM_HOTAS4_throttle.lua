@@ -151,7 +151,7 @@ local diff = {
 		["d3020pnilu3020cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN2",
 				},
 			},
 			["name"] = "CAMERA/GUN Trigger - FIRST DETENT",
@@ -159,7 +159,7 @@ local diff = {
 		["d3021pnilu3021cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "CAMERA/GUN Trigger - SECOND DETENT",
@@ -179,14 +179,6 @@ local diff = {
 				},
 			},
 			["name"] = "UNCAGE Switch",
-		},
-		["d3030pnilu3030cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-			["name"] = "DOGFIGHT/Missile Override Switch (special) - DOGFIGHT/CENTER",
 		},
 		["d3031pnilu3031cd16vd-1vpnilvu0"] = {
 			["added"] = {
@@ -247,6 +239,28 @@ local diff = {
 				},
 			},
 			["name"] = "RDR CURSOR Switch - Right",
+		},
+		["d3044pnilunilcd16vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+					["reformers"] = {
+						[1] = "JOY_BTN9",
+					},
+				},
+			},
+			["name"] = "DOGFIGHT/Missile Override Switch - MISSILE OVERRIDE/CENTER",
+		},
+		["d3044pnilunilcd16vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+					["reformers"] = {
+						[1] = "JOY_BTN10",
+					},
+				},
+			},
+			["name"] = "DOGFIGHT/Missile Override Switch - DOGFIGHT/CENTER",
 		},
 		["d74pnilu75cdnilvdnilvpnilvunil"] = {
 			["added"] = {
