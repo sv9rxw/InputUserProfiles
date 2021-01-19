@@ -21,6 +21,24 @@ local diff = {
 				},
 			},
 		},
+		["a2101cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_SLIDER1",
+				},
+			},
+			["name"] = "Wheel Brake",
+		},
 		["a3046cd16"] = {
 			["added"] = {
 				[1] = {
@@ -127,7 +145,7 @@ local diff = {
 		["d3014pnilu3014cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN26",
+					["key"] = "JOY_BTN27",
 				},
 			},
 			["name"] = "Countermeasures Management Switch - Fwd",
@@ -135,7 +153,7 @@ local diff = {
 		["d3015pnilu3015cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN28",
+					["key"] = "JOY_BTN29",
 				},
 			},
 			["name"] = "Countermeasures Management Switch - Aft",
@@ -183,7 +201,7 @@ local diff = {
 		["d3031pnilu3031cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN27",
+					["key"] = "JOY_BTN28",
 				},
 			},
 			["name"] = "SPD BRK Switch - Aft/EXTEND (Momentary)",
@@ -191,7 +209,7 @@ local diff = {
 		["d3031pnilunilcd16vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN29",
+					["key"] = "JOY_BTN26",
 				},
 			},
 			["name"] = "SPD BRK Switch - Fwd/RETRACT",
@@ -261,14 +279,6 @@ local diff = {
 				},
 			},
 			["name"] = "DOGFIGHT/Missile Override Switch - DOGFIGHT/CENTER",
-		},
-		["d74pnilu75cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN31",
-				},
-			},
-			["name"] = "Wheel Brake - ON/OFF",
 		},
 		["dnilp3033unilcd16vdnilvp1vunil"] = {
 			["added"] = {
