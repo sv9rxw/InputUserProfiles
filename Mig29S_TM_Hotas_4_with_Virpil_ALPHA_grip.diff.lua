@@ -57,6 +57,16 @@ local diff = {
 		["a2012cdnil"] = {
 			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_SLIDER1",
 				},
 			},
@@ -96,35 +106,14 @@ local diff = {
 		["d102pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN6",
 					["reformers"] = {
-						[1] = "JOY_BTN9",
+						[1] = "JOY_BTN10",
+						[2] = "JOY_BTN9",
 					},
 				},
 			},
 			["name"] = "Next Waypoint, Airfield Or Target",
-		},
-		["d103pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-			},
-			["name"] = "Display Zoom In",
-		},
-		["d104pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-			},
-			["name"] = "Display Zoom Out",
 		},
 		["d105pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -186,9 +175,10 @@ local diff = {
 		["d1315pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN5",
 					["reformers"] = {
-						[1] = "JOY_BTN9",
+						[1] = "JOY_BTN10",
+						[2] = "JOY_BTN9",
 					},
 				},
 			},
@@ -218,14 +208,6 @@ local diff = {
 			},
 			["name"] = "Airbrake Off",
 		},
-		["d177pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-			},
-			["name"] = "Zoom normal",
-		},
 		["d285pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -244,25 +226,6 @@ local diff = {
 				},
 			},
 			["name"] = "Launch Permission Override",
-		},
-		["d357pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-					["reformers"] = {
-						[1] = "JOY_BTN9",
-					},
-				},
-			},
-			["name"] = "Countermeasures Flares Dispense",
-		},
-		["d358pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-				},
-			},
-			["name"] = "Countermeasures Chaff Dispense",
 		},
 		["d394pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
