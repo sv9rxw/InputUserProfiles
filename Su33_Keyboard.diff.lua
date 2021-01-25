@@ -17,12 +17,15 @@ local diff = {
 			},
 		},
 		["d102pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
+			["name"] = "Next Waypoint, Airfield Or Target",
+			["removed"] = {
 				[1] = {
-					["key"] = ".",
+					["key"] = "`",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
 				},
 			},
-			["name"] = "Next Waypoint, Airfield Or Target",
 		},
 		["d121pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "ASC Direct Control (Cobra)",
@@ -33,12 +36,15 @@ local diff = {
 			},
 		},
 		["d1315pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
+			["name"] = "Previous Waypoint, Airfield Or Target",
+			["removed"] = {
 				[1] = {
-					["key"] = ",",
+					["key"] = "`",
+					["reformers"] = {
+						[1] = "LShift",
+					},
 				},
 			},
-			["name"] = "Previous Waypoint, Airfield Or Target",
 		},
 		["d147pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Airbrake On",
@@ -162,6 +168,17 @@ local diff = {
 				},
 			},
 		},
+		["d285pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Radar RWS/TWS Mode Select",
+			["removed"] = {
+				[1] = {
+					["key"] = "I",
+					["reformers"] = {
+						[1] = "RAlt",
+					},
+				},
+			},
+		},
 		["d357pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Countermeasures Flares Dispense",
 			["removed"] = {
@@ -175,6 +192,28 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "Insert",
+				},
+			},
+		},
+		["d394pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Radar Pulse Repeat Frequency Select",
+			["removed"] = {
+				[1] = {
+					["key"] = "I",
+					["reformers"] = {
+						[1] = "RShift",
+					},
+				},
+			},
+		},
+		["d562pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Nose Wheel Steering",
+			["removed"] = {
+				[1] = {
+					["key"] = "Q",
+					["reformers"] = {
+						[1] = "LAlt",
+					},
 				},
 			},
 		},
