@@ -106,6 +106,14 @@ local diff = {
 				},
 			},
 		},
+		["d176pnilu536cdnilvdnilvpnilvunil"] = {
+			["name"] = "Countermeasures Release",
+			["removed"] = {
+				[1] = {
+					["key"] = "Q",
+				},
+			},
+		},
 		["d193pnilu194cdnilvdnilvpnilvunil"] = {
 			["name"] = "Aircraft Pitch Down",
 			["removed"] = {
@@ -154,6 +162,22 @@ local diff = {
 				},
 			},
 		},
+		["d357pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Countermeasures Flares Dispense",
+			["removed"] = {
+				[1] = {
+					["key"] = "Delete",
+				},
+			},
+		},
+		["d358pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Countermeasures Chaff Dispense",
+			["removed"] = {
+				[1] = {
+					["key"] = "Insert",
+				},
+			},
+		},
 		["d66pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Throttle Step Up",
 			["removed"] = {
@@ -183,6 +207,17 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "W",
+				},
+			},
+		},
+		["d77pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Countermeasures Continuously Dispense",
+			["removed"] = {
+				[1] = {
+					["key"] = "Q",
+					["reformers"] = {
+						[1] = "LShift",
+					},
 				},
 			},
 		},
