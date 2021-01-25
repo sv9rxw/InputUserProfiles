@@ -144,6 +144,14 @@ local diff = {
 			},
 			["name"] = "Radar Pulse Repeat Frequency Select",
 		},
+		["d562pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN19",
+				},
+			},
+			["name"] = "Nose Wheel Steering",
+		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
