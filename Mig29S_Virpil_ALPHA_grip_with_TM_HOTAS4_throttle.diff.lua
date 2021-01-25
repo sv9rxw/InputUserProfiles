@@ -137,10 +137,7 @@ local diff = {
 		["d349pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
+					["key"] = "JOY_BTN1",
 				},
 			},
 			["name"] = "Launch Permission Override",
