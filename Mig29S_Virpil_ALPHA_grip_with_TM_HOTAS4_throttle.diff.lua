@@ -107,6 +107,14 @@ local diff = {
 				},
 			},
 		},
+		["d136pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN26",
+				},
+			},
+			["name"] = "ECM",
+		},
 		["d177pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
