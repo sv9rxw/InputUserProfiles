@@ -168,11 +168,7 @@ local diff = {
 		["d3031pnilu3031cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-						[2] = "JOY_BTN9",
-					},
+					["key"] = "JOY_BTN5",
 				},
 			},
 			["name"] = "SPD BRK Switch - Aft/EXTEND (Momentary)",
@@ -180,10 +176,7 @@ local diff = {
 		["d3031pnilunilcd16vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
-					["reformers"] = {
-						[1] = "JOY_BTN9",
-					},
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "SPD BRK Switch - Fwd/RETRACT",
@@ -309,22 +302,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
-		},
-		["dnilp3033unilcd16vdnilvp1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
-			},
-			["name"] = "ANT ELEV Knob - CW",
-		},
-		["dnilp3034unilcd16vdnilvp-1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
-			},
-			["name"] = "ANT ELEV Knob - CCW",
 		},
 		["dnilp3040unilcd16vdnilvp1vunil"] = {
 			["added"] = {

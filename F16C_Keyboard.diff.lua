@@ -40,6 +40,14 @@ local diff = {
 				},
 			},
 		},
+		["d3001pnilu3001cd16vd1vpnilvu0"] = {
+			["name"] = "NWS A/R DISC MSL STEP Button",
+			["removed"] = {
+				[1] = {
+					["key"] = "S",
+				},
+			},
+		},
 		["d3006pnilu3006cd16vd1vpnilvu0"] = {
 			["name"] = "Display Management Switch - Up",
 			["removed"] = {
@@ -150,6 +158,46 @@ local diff = {
 			},
 			["name"] = "Right MFD BRT Rocker Switch - Down/Decrease",
 		},
+		["d3031pnilu3031cd2vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "X",
+				},
+			},
+			["name"] = "Autopilot PITCH Switch - ATT HOLD",
+		},
+		["d3032pnilu3032cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "W",
+				},
+			},
+			["name"] = "Autopilot PITCH Switch - ALT HOLD",
+		},
+		["d3032pnilunilcd2vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "S",
+				},
+			},
+			["name"] = "Autopilot PITCH Switch - A/P OFF",
+		},
+		["d3033pnilunilcd2vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Z",
+				},
+			},
+			["name"] = "Autopilot ROLL Switch - Down",
+		},
+		["d3033pnilunilcd2vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Q",
+				},
+			},
+			["name"] = "Autopilot ROLL Switch - Up",
+		},
 		["d3035pnilu3035cd16vd1vpnilvu0"] = {
 			["name"] = "RDR CURSOR Switch - Up",
 			["removed"] = {
@@ -194,6 +242,36 @@ local diff = {
 					["key"] = "H",
 					["reformers"] = {
 						[1] = "RShift",
+					},
+				},
+			},
+		},
+		["d74pnilu75cdnilvdnilvpnilvunil"] = {
+			["name"] = "Wheel Brake - ON/OFF",
+			["removed"] = {
+				[1] = {
+					["key"] = "W",
+				},
+			},
+		},
+		["d961pnilu962cdnilvdnilvpnilvunil"] = {
+			["name"] = "Wheel Brake Left - ON/OFF",
+			["removed"] = {
+				[1] = {
+					["key"] = "W",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
+				},
+			},
+		},
+		["d963pnilu964cdnilvdnilvpnilvunil"] = {
+			["name"] = "Wheel Brake Right - ON/OFF",
+			["removed"] = {
+				[1] = {
+					["key"] = "W",
+					["reformers"] = {
+						[1] = "LAlt",
 					},
 				},
 			},

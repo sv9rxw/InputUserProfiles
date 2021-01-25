@@ -1,11 +1,22 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2003cdnil"] = {
-			["added"] = {
+		["a2001cdnil"] = {
+			["name"] = "Pitch",
+			["removed"] = {
 				[1] = {
-					["key"] = "JOY_Z",
+					["key"] = "JOY_Y",
 				},
 			},
+		},
+		["a2002cdnil"] = {
+			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
+		["a2003cdnil"] = {
 			["name"] = "Rudder",
 			["removed"] = {
 				[1] = {
@@ -14,19 +25,11 @@ local diff = {
 			},
 		},
 		["a2004cdnil"] = {
-			["name"] = "Thrust",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
-		},
-		["a2101cdnil"] = {
-			["added"] = {
+			["changed"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = -0.02,
 						},
 						["deadzone"] = 0,
 						["invert"] = false,
@@ -34,25 +37,38 @@ local diff = {
 						["saturationY"] = 1,
 						["slider"] = true,
 					},
+					["key"] = "JOY_Z",
+				},
+			},
+			["name"] = "Thrust",
+		},
+		["a2012cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_SLIDER1",
 				},
 			},
-			["name"] = "Wheel Brake",
+			["name"] = "Zoom View",
 		},
 	},
 	["keyDiffs"] = {
-		["d3001pnilu3001cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN19",
-				},
-			},
-			["name"] = "NWS A/R DISC MSL STEP Button",
-		},
 		["d3006pnilu3006cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN_POV1_U",
+					["reformers"] = {
+						[1] = "JOY_BTN9",
+					},
 				},
 			},
 			["name"] = "Display Management Switch - Up",
@@ -60,7 +76,10 @@ local diff = {
 		["d3007pnilu3007cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN_POV1_D",
+					["reformers"] = {
+						[1] = "JOY_BTN9",
+					},
 				},
 			},
 			["name"] = "Display Management Switch - Down",
@@ -68,7 +87,10 @@ local diff = {
 		["d3008pnilu3008cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN_POV1_L",
+					["reformers"] = {
+						[1] = "JOY_BTN9",
+					},
 				},
 			},
 			["name"] = "Display Management Switch - Left",
@@ -76,7 +98,10 @@ local diff = {
 		["d3009pnilu3009cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN_POV1_R",
+					["reformers"] = {
+						[1] = "JOY_BTN9",
+					},
 				},
 			},
 			["name"] = "Display Management Switch - Right",
@@ -84,10 +109,7 @@ local diff = {
 		["d3010pnilu3010cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
-				},
-				[2] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN_POV1_U",
 				},
 			},
 			["name"] = "Target Management Switch - Up",
@@ -95,7 +117,7 @@ local diff = {
 		["d3011pnilu3011cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
 			["name"] = "Target Management Switch - Down",
@@ -103,7 +125,7 @@ local diff = {
 		["d3012pnilu3012cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN_POV1_L",
 				},
 			},
 			["name"] = "Target Management Switch - Left",
@@ -111,55 +133,26 @@ local diff = {
 		["d3013pnilu3013cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN_POV1_R",
 				},
 			},
 			["name"] = "Target Management Switch - Right",
 		},
-		["d3014pnilu3014cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN27",
-				},
-			},
-			["name"] = "Countermeasures Management Switch - Fwd",
-		},
-		["d3015pnilu3015cd16vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN29",
-				},
-			},
-			["name"] = "Countermeasures Management Switch - Aft",
-		},
 		["d3018pnilu3018cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN7",
+					["reformers"] = {
+						[1] = "JOY_BTN10",
+					},
 				},
 			},
 			["name"] = "Expand/FOV Button - Depress",
 		},
-		["d3020pnilu3020cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "CAMERA/GUN Trigger - FIRST DETENT",
-		},
-		["d3021pnilu3021cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "CAMERA/GUN Trigger - SECOND DETENT",
-		},
 		["d3022pnilu3022cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN2",
 				},
 			},
 			["name"] = "WPN REL Button - Depress",
@@ -167,7 +160,7 @@ local diff = {
 		["d3029pnilu3029cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "UNCAGE Switch",
@@ -175,7 +168,7 @@ local diff = {
 		["d3031pnilu3031cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN28",
+					["key"] = "JOY_BTN5",
 				},
 			},
 			["name"] = "SPD BRK Switch - Aft/EXTEND (Momentary)",
@@ -183,7 +176,7 @@ local diff = {
 		["d3031pnilunilcd16vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN26",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "SPD BRK Switch - Fwd/RETRACT",
@@ -191,13 +184,10 @@ local diff = {
 		["d3035pnilu3035cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN_POV1_U",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
 					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN33",
 				},
 			},
 			["name"] = "RDR CURSOR Switch - Up",
@@ -205,13 +195,10 @@ local diff = {
 		["d3036pnilu3036cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN_POV1_D",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
 					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN34",
 				},
 			},
 			["name"] = "RDR CURSOR Switch - Down",
@@ -219,13 +206,10 @@ local diff = {
 		["d3037pnilu3037cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN_POV1_L",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
 					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN35",
 				},
 			},
 			["name"] = "RDR CURSOR Switch - Left",
@@ -233,21 +217,26 @@ local diff = {
 		["d3038pnilu3038cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN_POV1_R",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
 					},
 				},
-				[2] = {
-					["key"] = "JOY_BTN32",
-				},
 			},
 			["name"] = "RDR CURSOR Switch - Right",
+		},
+		["d3039pnilu3039cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN7",
+				},
+			},
+			["name"] = "ENABLE Switch - Depress",
 		},
 		["d3044pnilunilcd16vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN1",
 					["reformers"] = {
 						[1] = "JOY_BTN9",
 					},
@@ -258,37 +247,78 @@ local diff = {
 		["d3044pnilunilcd16vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN1",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
 					},
 				},
-				[2] = {
-					["key"] = "JOY_BTN21",
-				},
 			},
 			["name"] = "DOGFIGHT/Missile Override Switch - DOGFIGHT/CENTER",
 		},
-		["dnilp3033unilcd16vdnilvp1vunil"] = {
+		["d438pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN24",
+					["key"] = "JOY_BTN12",
 				},
 			},
-			["name"] = "ANT ELEV Knob - CW",
+			["name"] = "Toggle goggles",
 		},
-		["dnilp3034unilcd16vdnilvp-1vunil"] = {
+		["d74pnilu75cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN23",
+					["key"] = "JOY_BTN2",
+					["reformers"] = {
+						[1] = "JOY_BTN10",
+						[2] = "JOY_BTN9",
+					},
 				},
 			},
-			["name"] = "ANT ELEV Knob - CCW",
+			["name"] = "Wheel Brake - ON/OFF",
+		},
+		["d816pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+					["reformers"] = {
+						[1] = "JOY_BTN10",
+						[2] = "JOY_BTN9",
+					},
+				},
+			},
+			["name"] = "Active Pause",
+		},
+		["d83pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+					["reformers"] = {
+						[1] = "JOY_BTN10",
+						[2] = "JOY_BTN9",
+					},
+				},
+			},
+			["name"] = "Eject (3 times)",
+		},
+		["dnilp210u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Up Right slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_UR",
+				},
+			},
+		},
+		["dnilp213u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Up Left slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_UL",
+				},
+			},
 		},
 		["dnilp3040unilcd16vdnilvp1vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN24",
+					["key"] = "JOY_BTN5",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
 					},
@@ -299,7 +329,7 @@ local diff = {
 		["dnilp3041unilcd16vdnilvp-1vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN23",
+					["key"] = "JOY_BTN6",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
 					},
@@ -307,12 +337,45 @@ local diff = {
 			},
 			["name"] = "MAN RNG Knob - CCW",
 		},
+		["dnilp32u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Left slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+				},
+			},
+		},
+		["dnilp33u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Right slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+				},
+			},
+		},
+		["dnilp34u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Up slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+				},
+			},
+		},
+		["dnilp35u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Down slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
+		},
 		["dnilp93u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN_POV1_L",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
+						[2] = "JOY_BTN9",
 					},
 				},
 			},
@@ -321,9 +384,10 @@ local diff = {
 		["dnilp94u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN_POV1_R",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
+						[2] = "JOY_BTN9",
 					},
 				},
 			},
@@ -332,9 +396,10 @@ local diff = {
 		["dnilp95u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN_POV1_D",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
+						[2] = "JOY_BTN9",
 					},
 				},
 			},
@@ -343,9 +408,10 @@ local diff = {
 		["dnilp96u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN_POV1_U",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
+						[2] = "JOY_BTN9",
 					},
 				},
 			},

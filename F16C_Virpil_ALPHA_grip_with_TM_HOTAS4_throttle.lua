@@ -263,6 +263,9 @@ local diff = {
 						[1] = "JOY_BTN10",
 					},
 				},
+				[2] = {
+					["key"] = "JOY_BTN21",
+				},
 			},
 			["name"] = "DOGFIGHT/Missile Override Switch - DOGFIGHT/CENTER",
 		},
