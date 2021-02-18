@@ -146,6 +146,28 @@ local diff = {
 				},
 			},
 		},
+		["d262pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Predicted Target Range Decrease",
+			["removed"] = {
+				[1] = {
+					["key"] = "-",
+					["reformers"] = {
+						[1] = "RCtrl",
+					},
+				},
+			},
+		},
+		["d263pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Predicted Target Range Increase",
+			["removed"] = {
+				[1] = {
+					["key"] = "=",
+					["reformers"] = {
+						[1] = "RCtrl",
+					},
+				},
+			},
+		},
 		["d285pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Radar RWS/TWS Mode Select",
 			["removed"] = {
