@@ -53,16 +53,6 @@ local diff = {
 		["a2006cdnil"] = {
 			["added"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
 					["key"] = "JOY_RY",
 				},
 			},
@@ -75,7 +65,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0,
 						},
-						["deadzone"] = 0.02,
+						["deadzone"] = 0.03,
 						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -144,13 +134,13 @@ local diff = {
 			},
 			["name"] = "(3) Close Air Combat Vertical Scan Mode",
 		},
-		["d108pnilunilcdnilvdnilvpnilvunil"] = {
+		["d109pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "(4) Close Air Combat Bore Mode",
+			["name"] = "(5) Close Air Combat HMD Helmet Mode",
 		},
 		["d113pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Cannon",
@@ -159,6 +149,14 @@ local diff = {
 					["key"] = "JOY_BTN5",
 				},
 			},
+		},
+		["d121pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN33",
+				},
+			},
+			["name"] = "ASC Direct Control (Cobra)",
 		},
 		["d1315pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -200,6 +198,14 @@ local diff = {
 			},
 			["name"] = "Airbrake Off",
 		},
+		["d156pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+			["name"] = "HUD Color",
+		},
 		["d262pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -215,38 +221,6 @@ local diff = {
 				},
 			},
 			["name"] = "Predicted Target Range Increase",
-		},
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["name"] = "Weapon Release",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-		},
-		["d389pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN48",
-				},
-			},
-			["name"] = "Autopilot - Altitude Hold",
-		},
-		["d408pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN43",
-				},
-			},
-			["name"] = "Autopilot Disengage",
-		},
-		["d62pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN49",
-				},
-			},
-			["name"] = "Autopilot - Attitude Hold",
 		},
 		["d82pnilu171cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -272,6 +246,14 @@ local diff = {
 			},
 			["name"] = "Radar On/Off",
 		},
+		["d87pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN39",
+				},
+			},
+			["name"] = "Electro-Optical System On/Off",
+		},
 		["d92pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -279,6 +261,19 @@ local diff = {
 				},
 			},
 			["name"] = "Target Designator To Center",
+		},
+		["d957pnilu958cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "Stick to trimmer control mode",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -343,6 +338,22 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
+		},
+		["dnilp746unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "HUD Brightness up",
+		},
+		["dnilp747unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "HUD Brightness down",
 		},
 		["dnilp88u235cdnilvdnilvpnilvunil"] = {
 			["added"] = {

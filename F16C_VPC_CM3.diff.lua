@@ -234,7 +234,7 @@ local diff = {
 		["d3031pnilu3031cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN23",
+					["key"] = "JOY_BTN28",
 				},
 			},
 			["name"] = "SPD BRK Switch - Aft/EXTEND (Momentary)",
@@ -258,7 +258,7 @@ local diff = {
 		["d3031pnilunilcd16vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN25",
+					["key"] = "JOY_BTN30",
 				},
 			},
 			["name"] = "SPD BRK Switch - Fwd/RETRACT",
@@ -370,10 +370,10 @@ local diff = {
 		["dnilp3040unilcd16vdnilvp1vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN30",
+					["key"] = "JOY_BTN15",
 				},
 				[2] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN25",
 				},
 			},
 			["name"] = "MAN RNG Knob - CW",
@@ -397,10 +397,10 @@ local diff = {
 		["dnilp3041unilcd16vdnilvp-1vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN28",
+					["key"] = "JOY_BTN14",
 				},
 				[2] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN23",
 				},
 			},
 			["name"] = "MAN RNG Knob - CCW",

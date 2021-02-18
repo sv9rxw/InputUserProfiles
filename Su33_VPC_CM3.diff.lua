@@ -75,7 +75,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0,
 						},
-						["deadzone"] = 0.02,
+						["deadzone"] = 0.03,
 						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -144,13 +144,13 @@ local diff = {
 			},
 			["name"] = "(3) Close Air Combat Vertical Scan Mode",
 		},
-		["d108pnilunilcdnilvdnilvpnilvunil"] = {
+		["d109pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "(4) Close Air Combat Bore Mode",
+			["name"] = "(5) Close Air Combat HMD Helmet Mode",
 		},
 		["d113pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Cannon",
@@ -159,6 +159,14 @@ local diff = {
 					["key"] = "JOY_BTN5",
 				},
 			},
+		},
+		["d121pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN33",
+				},
+			},
+			["name"] = "ASC Direct Control (Cobra)",
 		},
 		["d1315pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -200,6 +208,22 @@ local diff = {
 			},
 			["name"] = "Airbrake Off",
 		},
+		["d156pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+			["name"] = "HUD Color",
+		},
+		["d1601pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+			},
+			["name"] = "Special Afterburner Mode",
+		},
 		["d262pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -215,38 +239,6 @@ local diff = {
 				},
 			},
 			["name"] = "Predicted Target Range Increase",
-		},
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["name"] = "Weapon Release",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-		},
-		["d389pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN48",
-				},
-			},
-			["name"] = "Autopilot - Altitude Hold",
-		},
-		["d408pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN43",
-				},
-			},
-			["name"] = "Autopilot Disengage",
-		},
-		["d62pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN49",
-				},
-			},
-			["name"] = "Autopilot - Attitude Hold",
 		},
 		["d82pnilu171cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -270,7 +262,15 @@ local diff = {
 					["key"] = "JOY_BTN40",
 				},
 			},
-			["name"] = "Radar On/Off",
+			["name"] = "Radar",
+		},
+		["d87pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN39",
+				},
+			},
+			["name"] = "Electro-Optical System",
 		},
 		["d92pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -280,69 +280,34 @@ local diff = {
 			},
 			["name"] = "Target Designator To Center",
 		},
-		["dnilp210u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up Right slow",
+		["d957pnilu958cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "Stick to Trimmer Control Mode",
 			["removed"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_UR",
+					["key"] = "JOY_BTN3",
 				},
 			},
 		},
-		["dnilp211u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down Right slow",
-			["removed"] = {
+		["dnilp746unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_DR",
+					["key"] = "JOY_BTN3",
 				},
 			},
+			["name"] = "HUD Brightness up",
 		},
-		["dnilp212u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down Left slow",
-			["removed"] = {
+		["dnilp747unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_DL",
+					["key"] = "JOY_BTN2",
 				},
 			},
-		},
-		["dnilp213u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_UL",
-				},
-			},
-		},
-		["dnilp32u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-				},
-			},
-		},
-		["dnilp33u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-				},
-			},
-		},
-		["dnilp34u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-				},
-			},
-		},
-		["dnilp35u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
+			["name"] = "HUD Brightness down",
 		},
 		["dnilp88u235cdnilvdnilvpnilvunil"] = {
 			["added"] = {

@@ -41,6 +41,11 @@ local diff = {
 			["name"] = "Previous Waypoint, Airfield Or Target",
 		},
 		["d147pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "J",
+				},
+			},
 			["name"] = "Airbrake On",
 			["removed"] = {
 				[1] = {
