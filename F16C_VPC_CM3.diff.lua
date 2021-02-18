@@ -103,18 +103,10 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3002pnilu3002cd19vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN38",
-				},
-			},
-			["name"] = "MASTER ARM Switch - MASTER ARM/OFF",
-		},
 		["d3003pnilu3003cd19vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN41",
+					["key"] = "JOY_BTN38",
 				},
 			},
 			["name"] = "EMER STORES JETTISON Button",
@@ -159,13 +151,13 @@ local diff = {
 			},
 			["name"] = "FUEL QTY SEL Knob - EXT CTR",
 		},
-		["d3008pnilunilcd22vd1vpnilvunil"] = {
+		["d3007pnilu3007cd33vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN39",
+					["key"] = "JOY_BTN41",
 				},
 			},
-			["name"] = "LASER ARM Switch - ARM/OFF",
+			["name"] = "RWR Indicator Control T Button",
 		},
 		["d3011pnilunilcd2vd0vpnilvunil"] = {
 			["added"] = {
@@ -183,18 +175,34 @@ local diff = {
 			},
 			["name"] = "STORES CONFIG Switch - CAT I",
 		},
-		["d3017pnilunilcd33vd1vpnilvunil"] = {
+		["d3014pnilunilcd2vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN40",
+					["key"] = "JOY_BTN47",
 				},
 			},
-			["name"] = "RWR Indicator Control POWER Button - Depressed/Released",
+			["name"] = "Autopilot ROLL Switch - STRG SEL",
+		},
+		["d3014pnilunilcd2vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN42",
+				},
+			},
+			["name"] = "Autopilot ROLL Switch - ATT HOLD",
+		},
+		["d3014pnilunilcd2vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN46",
+				},
+			},
+			["name"] = "Autopilot ROLL Switch - HDG SEL",
 		},
 		["d3018pnilu3018cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN42",
+					["key"] = "JOY_BTN39",
 				},
 			},
 			["name"] = "ICP Master Mode Button - A-A",
@@ -202,7 +210,7 @@ local diff = {
 		["d3019pnilu3019cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN43",
+					["key"] = "JOY_BTN40",
 				},
 			},
 			["name"] = "ICP Master Mode Button - A-G",
@@ -218,7 +226,7 @@ local diff = {
 		["d3030pnilu3030cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN48",
+					["key"] = "JOY_BTN44",
 				},
 			},
 			["name"] = "ICP DED Increment/Decrement Switch - Increment",
@@ -234,10 +242,18 @@ local diff = {
 		["d3031pnilu3031cd17vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN49",
+					["key"] = "JOY_BTN45",
 				},
 			},
 			["name"] = "ICP DED Increment/Decrement Switch - Decrement",
+		},
+		["d3031pnilu3031cd2vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN49",
+				},
+			},
+			["name"] = "Autopilot PITCH Switch - ATT HOLD",
 		},
 		["d3031pnilunilcd16vd1vpnilvunil"] = {
 			["added"] = {
@@ -247,13 +263,26 @@ local diff = {
 			},
 			["name"] = "SPD BRK Switch - Fwd/RETRACT",
 		},
+		["d3032pnilu3032cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN48",
+				},
+			},
+			["name"] = "Autopilot PITCH Switch - ALT HOLD",
+		},
+		["d3032pnilunilcd2vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN43",
+				},
+			},
+			["name"] = "Autopilot PITCH Switch - A/P OFF",
+		},
 		["d3035pnilu3035cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN9",
-				},
-				[2] = {
-					["key"] = "JOY_BTN17",
 				},
 			},
 			["name"] = "RDR CURSOR Switch - Up",
@@ -263,9 +292,6 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN11",
 				},
-				[2] = {
-					["key"] = "JOY_BTN19",
-				},
 			},
 			["name"] = "RDR CURSOR Switch - Down",
 		},
@@ -274,9 +300,6 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN12",
 				},
-				[2] = {
-					["key"] = "JOY_BTN20",
-				},
 			},
 			["name"] = "RDR CURSOR Switch - Left",
 		},
@@ -284,9 +307,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN10",
-				},
-				[2] = {
-					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "RDR CURSOR Switch - Right",
