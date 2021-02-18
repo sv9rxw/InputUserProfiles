@@ -1,46 +1,58 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["name"] = "Pitch",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
-		},
-		["a2002cdnil"] = {
-			["name"] = "Roll",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_X",
-				},
-			},
-		},
-		["a2003cdnil"] = {
-			["name"] = "Rudder",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-		},
-		["a2004cdnil"] = {
 			["changed"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = -0.02,
+							[1] = 0.14,
 						},
 						["deadzone"] = 0,
 						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
-						["slider"] = true,
+						["slider"] = false,
 					},
-					["key"] = "JOY_Z",
+					["key"] = "JOY_Y",
 				},
 			},
-			["name"] = "Thrust",
+			["name"] = "Pitch",
+		},
+		["a2002cdnil"] = {
+			["changed"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.15,
+						},
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Roll",
+		},
+		["a2003cdnil"] = {
+			["changed"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.25,
+						},
+						["deadzone"] = 0.05,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_RZ",
+				},
+			},
+			["name"] = "Rudder",
 		},
 		["a2012cdnil"] = {
 			["added"] = {
@@ -62,242 +74,230 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3003pnilu3003cd19vd1vpnilvu0"] = {
+		["d145pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "Flaps Down",
+		},
+		["d146pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "Flaps Up",
+		},
+		["d350pnilu351cdnilvdnilvpnilvunil"] = {
+			["name"] = "Weapon release",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+		},
+		["d544pnilu548cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+				},
+			},
+			["name"] = "HOTAS TMS Forward",
+		},
+		["d545pnilu548cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
+			["name"] = "HOTAS TMS Aft",
+		},
+		["d546pnilu548cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+				},
+			},
+			["name"] = "HOTAS TMS Left",
+		},
+		["d547pnilu548cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+				},
+			},
+			["name"] = "HOTAS TMS Right",
+		},
+		["d549pnilu553cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+					["reformers"] = {
+						[1] = "JOY_BTN9",
+					},
+				},
+			},
+			["name"] = "HOTAS DMS Forward",
+		},
+		["d550pnilu553cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+					["reformers"] = {
+						[1] = "JOY_BTN9",
+					},
+				},
+			},
+			["name"] = "HOTAS DMS Aft",
+		},
+		["d551pnilu553cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+					["reformers"] = {
+						[1] = "JOY_BTN9",
+					},
+				},
+			},
+			["name"] = "HOTAS DMS Left",
+		},
+		["d552pnilu553cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+					["reformers"] = {
+						[1] = "JOY_BTN9",
+					},
+				},
+			},
+			["name"] = "HOTAS DMS Right",
+		},
+		["d555pnilu639cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
 						[2] = "JOY_BTN9",
 					},
 				},
 			},
-			["name"] = "EMER STORES JETTISON Button",
+			["name"] = "Gun Trigger (first stage)",
 		},
-		["d3006pnilu3006cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-					["reformers"] = {
-						[1] = "JOY_BTN9",
-					},
-				},
-			},
-			["name"] = "Display Management Switch - Up",
-		},
-		["d3007pnilu3007cd16vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-					["reformers"] = {
-						[1] = "JOY_BTN9",
-					},
-				},
-			},
-			["name"] = "Display Management Switch - Down",
-		},
-		["d3008pnilu3008cd16vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-					["reformers"] = {
-						[1] = "JOY_BTN9",
-					},
-				},
-			},
-			["name"] = "Display Management Switch - Left",
-		},
-		["d3009pnilu3009cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-					["reformers"] = {
-						[1] = "JOY_BTN9",
-					},
-				},
-			},
-			["name"] = "Display Management Switch - Right",
-		},
-		["d3010pnilu3010cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-				},
-			},
-			["name"] = "Target Management Switch - Up",
-		},
-		["d3011pnilu3011cd16vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-			["name"] = "Target Management Switch - Down",
-		},
-		["d3012pnilu3012cd16vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-				},
-			},
-			["name"] = "Target Management Switch - Left",
-		},
-		["d3013pnilu3013cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-				},
-			},
-			["name"] = "Target Management Switch - Right",
-		},
-		["d3018pnilu3018cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN7",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-			},
-			["name"] = "Expand/FOV Button - Depress",
-		},
-		["d3022pnilu3022cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "WPN REL Button - Depress",
-		},
-		["d3029pnilu3029cd16vd1vpnilvu0"] = {
+		["d561pnilu633cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
 				},
 			},
-			["name"] = "UNCAGE Switch",
+			["name"] = "HOTAS Master Mode Control Button",
 		},
-		["d3031pnilu3031cd16vd-1vpnilvu0"] = {
+		["d562pnilu606cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+					["reformers"] = {
+						[1] = "JOY_BTN10",
+					},
+				},
+			},
+			["name"] = "HOTAS Nosewheel Steering Button",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+		},
+		["d563pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+					["reformers"] = {
+						[1] = "JOY_BTN10",
+					},
+				},
+			},
+			["name"] = "HOTAS Boat Switch Forward",
+		},
+		["d564pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+					["reformers"] = {
+						[1] = "JOY_BTN10",
+					},
+				},
+			},
+			["name"] = "HOTAS Boat Switch Aft",
+		},
+		["d565pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN7",
+					["reformers"] = {
+						[1] = "JOY_BTN10",
+					},
+				},
+			},
+			["name"] = "HOTAS Boat Switch Center",
+		},
+		["d566pnilu589cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "SPD BRK Switch - Aft/EXTEND (Momentary)",
+			["name"] = "HOTAS China Hat Forward",
 		},
-		["d3031pnilunilcd16vd1vpnilvunil"] = {
+		["d567pnilu589cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN5",
 				},
 			},
-			["name"] = "SPD BRK Switch - Fwd/RETRACT",
+			["name"] = "HOTAS China Hat Aft",
 		},
-		["d3035pnilu3035cd16vd1vpnilvu0"] = {
+		["d571pnilu1557cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
+					["key"] = "JOY_BTN8",
 				},
 			},
-			["name"] = "RDR CURSOR Switch - Up",
+			["name"] = "HOTAS Left Throttle Button",
 		},
-		["d3036pnilu3036cd16vd1vpnilvu0"] = {
+		["d577pnilu579cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Down",
-		},
-		["d3037pnilu3037cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Left",
-		},
-		["d3038pnilu3038cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Right",
-		},
-		["d3039pnilu3039cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN7",
-				},
-			},
-			["name"] = "ENABLE Switch - Depress",
-		},
-		["d3044pnilunilcd16vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-					["reformers"] = {
-						[1] = "JOY_BTN9",
-					},
-				},
-			},
-			["name"] = "DOGFIGHT/Missile Override Switch - MISSILE OVERRIDE/CENTER",
-		},
-		["d3044pnilunilcd16vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-			},
-			["name"] = "DOGFIGHT/Missile Override Switch - DOGFIGHT/CENTER",
-		},
-		["d438pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "Toggle goggles",
-		},
-		["d816pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN5",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
 						[2] = "JOY_BTN9",
 					},
 				},
 			},
-			["name"] = "Active Pause",
+			["name"] = "HOTAS Speed Brake Switch Forward",
 		},
-		["d83pnilunilcdnilvdnilvpnilvunil"] = {
+		["d578pnilu579cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN6",
 					["reformers"] = {
 						[1] = "JOY_BTN10",
 						[2] = "JOY_BTN9",
 					},
 				},
 			},
-			["name"] = "Eject (3 times)",
+			["name"] = "HOTAS Speed Brake Switch Aft",
+		},
+		["d957pnilu958cdnilvdnilvpnilvunil"] = {
+			["name"] = "Stick to trimmer control mode",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -331,28 +331,6 @@ local diff = {
 				},
 			},
 		},
-		["dnilp3040unilcd16vdnilvp1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-			},
-			["name"] = "MAN RNG Knob - CW",
-		},
-		["dnilp3041unilcd16vdnilvp-1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-			},
-			["name"] = "MAN RNG Knob - CCW",
-		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
 			["removed"] = {
@@ -385,6 +363,14 @@ local diff = {
 				},
 			},
 		},
+		["dnilp36unilcdnilvdnilvpnilvunil"] = {
+			["name"] = "View Center",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+		},
 		["dnilp93u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -395,7 +381,7 @@ local diff = {
 					},
 				},
 			},
-			["name"] = "TRIM Button - LEFT WING DOWN",
+			["name"] = "Trim: Left Wing Down",
 		},
 		["dnilp94u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -407,7 +393,7 @@ local diff = {
 					},
 				},
 			},
-			["name"] = "TRIM Button - RIGHT WING DOWN",
+			["name"] = "Trim: Right Wing Down",
 		},
 		["dnilp95u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -419,7 +405,7 @@ local diff = {
 					},
 				},
 			},
-			["name"] = "TRIM Button - NOSE DOWN",
+			["name"] = "Trim: Nose Down",
 		},
 		["dnilp96u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -431,7 +417,7 @@ local diff = {
 					},
 				},
 			},
-			["name"] = "TRIM Button - NOSE UP",
+			["name"] = "Trim: Nose Up",
 		},
 	},
 }

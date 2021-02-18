@@ -34,7 +34,7 @@ local diff = {
 		["d3006pnilu3006cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN33",
 				},
 			},
 			["name"] = "Display Management Switch - Up",
@@ -42,7 +42,7 @@ local diff = {
 		["d3007pnilu3007cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN34",
 				},
 			},
 			["name"] = "Display Management Switch - Down",
@@ -50,7 +50,7 @@ local diff = {
 		["d3008pnilu3008cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN35",
 				},
 			},
 			["name"] = "Display Management Switch - Left",
@@ -58,7 +58,7 @@ local diff = {
 		["d3009pnilu3009cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN32",
 				},
 			},
 			["name"] = "Display Management Switch - Right",
@@ -67,9 +67,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN8",
-				},
-				[2] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 			["name"] = "Target Management Switch - Up",
@@ -154,87 +151,6 @@ local diff = {
 			},
 			["name"] = "UNCAGE Switch",
 		},
-		["d3035pnilu3035cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN33",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Up",
-		},
-		["d3036pnilu3036cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN34",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Down",
-		},
-		["d3037pnilu3037cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN35",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Left",
-		},
-		["d3038pnilu3038cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN32",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Right",
-		},
-		["d3044pnilunilcd16vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-					["reformers"] = {
-						[1] = "JOY_BTN9",
-					},
-				},
-			},
-			["name"] = "DOGFIGHT/Missile Override Switch - MISSILE OVERRIDE/CENTER",
-		},
-		["d3044pnilunilcd16vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN21",
-				},
-			},
-			["name"] = "DOGFIGHT/Missile Override Switch - DOGFIGHT/CENTER",
-		},
 		["d74pnilu75cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -291,28 +207,6 @@ local diff = {
 			},
 			["name"] = "ANT ELEV Knob - CCW",
 		},
-		["dnilp3040unilcd16vdnilvp1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN24",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-			},
-			["name"] = "MAN RNG Knob - CW",
-		},
-		["dnilp3041unilcd16vdnilvp-1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN23",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
-				},
-			},
-			["name"] = "MAN RNG Knob - CCW",
-		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
 			["removed"] = {
@@ -349,9 +243,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN17",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
 				},
 			},
 			["name"] = "TRIM Button - LEFT WING DOWN",
@@ -360,9 +251,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN15",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
 				},
 			},
 			["name"] = "TRIM Button - RIGHT WING DOWN",
@@ -371,9 +259,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN16",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
 				},
 			},
 			["name"] = "TRIM Button - NOSE DOWN",
@@ -382,9 +267,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN14",
-					["reformers"] = {
-						[1] = "JOY_BTN10",
-					},
 				},
 			},
 			["name"] = "TRIM Button - NOSE UP",

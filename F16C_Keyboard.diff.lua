@@ -92,6 +92,38 @@ local diff = {
 				},
 			},
 		},
+		["d3012pnilu3012cd17vd1vpnilvu0"] = {
+			["name"] = "ICP COM Override Button - COM1(UHF)",
+			["removed"] = {
+				[1] = {
+					["key"] = "5",
+				},
+			},
+		},
+		["d3013pnilu3013cd17vd1vpnilvu0"] = {
+			["name"] = "ICP COM Override Button - COM2(VHF)",
+			["removed"] = {
+				[1] = {
+					["key"] = "6",
+				},
+			},
+		},
+		["d3014pnilu3014cd17vd1vpnilvu0"] = {
+			["name"] = "ICP IFF Override Button - IFF",
+			["removed"] = {
+				[1] = {
+					["key"] = "7",
+				},
+			},
+		},
+		["d3015pnilu3015cd17vd1vpnilvu0"] = {
+			["name"] = "ICP LIST Override Button - LIST",
+			["removed"] = {
+				[1] = {
+					["key"] = "8",
+				},
+			},
+		},
 		["d3026pnilu3026cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -157,6 +189,14 @@ local diff = {
 				},
 			},
 			["name"] = "Right MFD BRT Rocker Switch - Down/Decrease",
+		},
+		["d3029pnilu3029cd16vd1vpnilvu0"] = {
+			["name"] = "UNCAGE Switch",
+			["removed"] = {
+				[1] = {
+					["key"] = "C",
+				},
+			},
 		},
 		["d3031pnilu3031cd2vd-1vpnilvu0"] = {
 			["added"] = {
@@ -227,6 +267,22 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "/",
+				},
+			},
+		},
+		["d3044pnilunilcd16vd-1vpnilvunil"] = {
+			["name"] = "DOGFIGHT/Missile Override Switch - MISSILE OVERRIDE/CENTER",
+			["removed"] = {
+				[1] = {
+					["key"] = "4",
+				},
+			},
+		},
+		["d3044pnilunilcd16vd1vpnilvunil"] = {
+			["name"] = "DOGFIGHT/Missile Override Switch - DOGFIGHT/CENTER",
+			["removed"] = {
+				[1] = {
+					["key"] = "3",
 				},
 			},
 		},
