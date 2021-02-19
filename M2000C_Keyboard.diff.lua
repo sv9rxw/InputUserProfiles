@@ -8,29 +8,13 @@ local diff = {
 				},
 			},
 		},
-		["d262pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Radar Range DECREASE",
-			["removed"] = {
-				[1] = {
-					["key"] = "-",
-				},
-			},
-		},
-		["d263pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Radar Range INCREASE",
-			["removed"] = {
-				[1] = {
-					["key"] = "=",
-				},
-			},
-		},
 		["d3486pnilu3486cd11vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "O",
 				},
 			},
-			["name"] = "Radar OFF",
+			["name"] = "Radar Power A Off",
 		},
 		["d3486pnilu3486cd11vd1vpnilvunil"] = {
 			["added"] = {
@@ -38,7 +22,7 @@ local diff = {
 					["key"] = "I",
 				},
 			},
-			["name"] = "Radar ON",
+			["name"] = "Radar Power EM On",
 		},
 		["d564pnilu563cdnilvdnilvpnilvunil"] = {
 			["name"] = "Nosewheel Steering/IFF Interrogate",
@@ -48,41 +32,11 @@ local diff = {
 				},
 			},
 		},
-		["d74pnilu75cdnilvdnilvpnilvunil"] = {
-			["name"] = "Wheel Brakes",
-			["removed"] = {
-				[1] = {
-					["key"] = "W",
-				},
-			},
-		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["name"] = "Weapons FIRE/Bomb Release",
 			["removed"] = {
 				[1] = {
 					["key"] = "Space",
-				},
-			},
-		},
-		["d961pnilu962cdnilvdnilvpnilvunil"] = {
-			["name"] = "Wheel Brake LEFT",
-			["removed"] = {
-				[1] = {
-					["key"] = "W",
-					["reformers"] = {
-						[1] = "LShift",
-					},
-				},
-			},
-		},
-		["d963pnilu964cdnilvdnilvpnilvunil"] = {
-			["name"] = "Wheel Brake RIGHT",
-			["removed"] = {
-				[1] = {
-					["key"] = "W",
-					["reformers"] = {
-						[1] = "LAlt",
-					},
 				},
 			},
 		},
