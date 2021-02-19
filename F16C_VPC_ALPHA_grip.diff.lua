@@ -3,6 +3,16 @@ local diff = {
 		["a2003cdnil"] = {
 			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0.03,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_Z",
 				},
 			},
@@ -67,6 +77,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN8",
+				},
+				[2] = {
+					["key"] = "JOY_BTN5",
 				},
 			},
 			["name"] = "Target Management Switch - Up",

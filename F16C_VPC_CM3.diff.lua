@@ -103,6 +103,22 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d3002pnilunilcd19vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN65",
+				},
+			},
+			["name"] = "MASTER ARM Switch - OFF",
+		},
+		["d3002pnilunilcd19vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN34",
+				},
+			},
+			["name"] = "MASTER ARM Switch - MASTER ARM",
+		},
 		["d3003pnilu3003cd19vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -110,6 +126,22 @@ local diff = {
 				},
 			},
 			["name"] = "EMER STORES JETTISON Button",
+		},
+		["d3004pnilunilcd22vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN66",
+				},
+			},
+			["name"] = "LASER ARM Switch - OFF",
+		},
+		["d3004pnilunilcd22vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN35",
+				},
+			},
+			["name"] = "LASER ARM Switch - ARM",
 		},
 		["d3005pnilunilcd4vd0.1vpnilvunil"] = {
 			["added"] = {
@@ -335,6 +367,14 @@ local diff = {
 			},
 			["name"] = "DOGFIGHT/Missile Override Switch - DOGFIGHT/CENTER",
 		},
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN53",
+				},
+			},
+			["name"] = "Flashlight",
+		},
 		["d430pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -350,6 +390,46 @@ local diff = {
 				},
 			},
 			["name"] = "LG Handle - DN",
+		},
+		["d438pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+			["name"] = "Toggle goggles",
+		},
+		["dnilp210u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Up Right slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_UR",
+				},
+			},
+		},
+		["dnilp211u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Down Right slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_DR",
+				},
+			},
+		},
+		["dnilp212u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Down Left slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_DL",
+				},
+			},
+		},
+		["dnilp213u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Up Left slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_UL",
+				},
+			},
 		},
 		["dnilp3002unilcd30vdnilvp-0.3vunil"] = {
 			["added"] = {
@@ -381,7 +461,7 @@ local diff = {
 		["dnilp3040unilcd17vdnilvp-0.3vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN51",
 				},
 			},
 			["name"] = "ICP HUD Symbology Intensity Knob - Down/Decrease",
@@ -389,7 +469,7 @@ local diff = {
 		["dnilp3040unilcd17vdnilvp0.3vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN52",
 				},
 			},
 			["name"] = "ICP HUD Symbology Intensity Knob - Up/Increase",
@@ -405,10 +485,42 @@ local diff = {
 			},
 			["name"] = "MAN RNG Knob - CCW",
 		},
+		["dnilp32u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Left slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+				},
+			},
+		},
+		["dnilp33u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Right slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+				},
+			},
+		},
+		["dnilp34u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Up slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+				},
+			},
+		},
+		["dnilp35u214cdnilvdnilvpnilvunil"] = {
+			["name"] = "View Down slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
+		},
 		["dnilp840unilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN52",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "Gain goggles up",
@@ -416,7 +528,7 @@ local diff = {
 		["dnilp841unilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN51",
+					["key"] = "JOY_BTN2",
 				},
 			},
 			["name"] = "Gain goggles down",
