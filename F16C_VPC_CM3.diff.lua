@@ -106,7 +106,7 @@ local diff = {
 		["d3002pnilunilcd19vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN65",
+					["key"] = "JOY_BTN66",
 				},
 			},
 			["name"] = "MASTER ARM Switch - OFF",
@@ -114,7 +114,7 @@ local diff = {
 		["d3002pnilunilcd19vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN34",
+					["key"] = "JOY_BTN35",
 				},
 			},
 			["name"] = "MASTER ARM Switch - MASTER ARM",
@@ -130,7 +130,7 @@ local diff = {
 		["d3004pnilunilcd22vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN66",
+					["key"] = "JOY_BTN65",
 				},
 			},
 			["name"] = "LASER ARM Switch - OFF",
@@ -138,7 +138,7 @@ local diff = {
 		["d3004pnilunilcd22vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN35",
+					["key"] = "JOY_BTN34",
 				},
 			},
 			["name"] = "LASER ARM Switch - ARM",
