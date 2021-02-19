@@ -123,7 +123,7 @@ local diff = {
 		["d3003pnilu3003cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "Num7",
+					["key"] = "Num1",
 				},
 			},
 			["name"] = "ICP Priority Function Button - 1(T-ILS)",
@@ -139,7 +139,7 @@ local diff = {
 		["d3004pnilu3004cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "Num8",
+					["key"] = "Num2",
 				},
 			},
 			["name"] = "ICP Priority Function Button - 2/N(ALOW)",
@@ -155,7 +155,7 @@ local diff = {
 		["d3005pnilu3005cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "Num9",
+					["key"] = "Num3",
 				},
 			},
 			["name"] = "ICP Priority Function Button - 3",
@@ -263,7 +263,7 @@ local diff = {
 		["d3009pnilu3009cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "Num1",
+					["key"] = "Num7",
 				},
 			},
 			["name"] = "ICP Priority Function Button - 7(MARK)",
@@ -279,7 +279,7 @@ local diff = {
 		["d3010pnilu3010cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "Num2",
+					["key"] = "Num8",
 				},
 			},
 			["name"] = "ICP Priority Function Button - 8/S(FIX)",
@@ -295,7 +295,7 @@ local diff = {
 		["d3011pnilu3011cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "Num3",
+					["key"] = "Num9",
 				},
 			},
 			["name"] = "ICP Priority Function Button - 9(A-CAL)",
@@ -309,6 +309,11 @@ local diff = {
 			},
 		},
 		["d3012pnilu3012cd17vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num-",
+				},
+			},
 			["name"] = "ICP COM Override Button - COM1(UHF)",
 			["removed"] = {
 				[1] = {
@@ -317,6 +322,11 @@ local diff = {
 			},
 		},
 		["d3013pnilu3013cd17vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num+",
+				},
+			},
 			["name"] = "ICP COM Override Button - COM2(VHF)",
 			["removed"] = {
 				[1] = {
@@ -333,6 +343,11 @@ local diff = {
 			},
 		},
 		["d3015pnilu3015cd17vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Num*",
+				},
+			},
 			["name"] = "ICP LIST Override Button - LIST",
 			["removed"] = {
 				[1] = {
@@ -468,7 +483,7 @@ local diff = {
 		["d3030pnilu3030cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "Num+",
+					["key"] = "PageUp",
 				},
 			},
 			["name"] = "ICP DED Increment/Decrement Switch - Increment",
@@ -484,7 +499,7 @@ local diff = {
 		["d3031pnilu3031cd17vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "Num-",
+					["key"] = "PageDown",
 				},
 			},
 			["name"] = "ICP DED Increment/Decrement Switch - Decrement",
@@ -638,6 +653,14 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "/",
+				},
+			},
+		},
+		["d3039pnilu3039cd16vd1vpnilvu0"] = {
+			["name"] = "ENABLE Switch - Depress",
+			["removed"] = {
+				[1] = {
+					["key"] = "Enter",
 				},
 			},
 		},
@@ -900,6 +923,11 @@ local diff = {
 				},
 			},
 			["name"] = "Zoom in slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "Num*",
+				},
+			},
 		},
 		["dnilp40u290cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -911,6 +939,11 @@ local diff = {
 				},
 			},
 			["name"] = "Zoom out slow",
+			["removed"] = {
+				[1] = {
+					["key"] = "Num/",
+				},
+			},
 		},
 		["dnilp93u215cdnilvdnilvpnilvunil"] = {
 			["name"] = "TRIM Button - LEFT WING DOWN",
