@@ -70,10 +70,10 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.15,
 						},
 						["deadzone"] = 0.01,
-						["invert"] = false,
+						["invert"] = true,
 						["saturationX"] = 0.67,
 						["saturationY"] = 0.67,
 						["slider"] = false,
@@ -88,7 +88,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0,
+							[1] = 0.15,
 						},
 						["deadzone"] = 0.01,
 						["invert"] = false,
@@ -239,6 +239,14 @@ local diff = {
 			},
 			["name"] = "ICP Master Mode Button - A-A",
 		},
+		["d3018pnilu3018cd24vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN33",
+				},
+			},
+			["name"] = "Left MFD OSB 18",
+		},
 		["d3019pnilu3019cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -310,38 +318,6 @@ local diff = {
 				},
 			},
 			["name"] = "Autopilot PITCH Switch - A/P OFF",
-		},
-		["d3035pnilu3035cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Up",
-		},
-		["d3036pnilu3036cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Down",
-		},
-		["d3037pnilu3037cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Left",
-		},
-		["d3038pnilu3038cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Right",
 		},
 		["d3039pnilu3039cd16vd1vpnilvu0"] = {
 			["added"] = {

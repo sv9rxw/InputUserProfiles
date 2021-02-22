@@ -31,6 +31,24 @@ local diff = {
 				},
 			},
 		},
+		["a2101cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_SLIDER1",
+				},
+			},
+			["name"] = "Wheel Brake",
+		},
 	},
 	["keyDiffs"] = {
 		["d3001pnilu3001cd16vd1vpnilvu0"] = {
@@ -164,13 +182,49 @@ local diff = {
 			},
 			["name"] = "UNCAGE Switch",
 		},
-		["d74pnilu75cdnilvdnilvpnilvunil"] = {
+		["d3035pnilu3035cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN31",
+					["key"] = "JOY_BTN8",
+					["reformers"] = {
+						[1] = "JOY_BTN8",
+					},
 				},
 			},
-			["name"] = "Wheel Brake - ON/OFF",
+			["name"] = "RDR CURSOR Switch - Up",
+		},
+		["d3036pnilu3036cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+					["reformers"] = {
+						[1] = "JOY_BTN8",
+					},
+				},
+			},
+			["name"] = "RDR CURSOR Switch - Down",
+		},
+		["d3037pnilu3037cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+					["reformers"] = {
+						[1] = "JOY_BTN8",
+					},
+				},
+			},
+			["name"] = "RDR CURSOR Switch - Left",
+		},
+		["d3038pnilu3038cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+					["reformers"] = {
+						[1] = "JOY_BTN8",
+					},
+				},
+			},
+			["name"] = "RDR CURSOR Switch - Right",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
