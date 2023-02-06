@@ -21,6 +21,14 @@ local diff = {
 				},
 			},
 		},
+		["a2101cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_SLIDER1",
+				},
+			},
+			["name"] = "Wheel Brake",
+		},
 	},
 	["keyDiffs"] = {
 		["d100pnilu1627cdnilvdnilvpnilvunil"] = {

@@ -1,25 +1,58 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2003cdnil"] = {
+		["a10220cdnil"] = {
 			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.15,
+						},
+						["deadzone"] = 0.02,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_Z",
 				},
 			},
 			["name"] = "Rudder",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
 		},
-		["a2004cdnil"] = {
-			["name"] = "Thrust",
-			["removed"] = {
+		["a2001cdnil"] = {
+			["changed"] = {
 				[1] = {
-					["key"] = "JOY_Z",
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.15,
+						},
+						["deadzone"] = 0.01,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
 				},
 			},
+			["name"] = "Pitch",
+		},
+		["a2002cdnil"] = {
+			["changed"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.15,
+						},
+						["deadzone"] = 0.01,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Roll",
 		},
 		["a2101cdnil"] = {
 			["added"] = {
@@ -29,7 +62,7 @@ local diff = {
 							[1] = 0,
 						},
 						["deadzone"] = 0,
-						["invert"] = true,
+						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
 						["slider"] = true,
@@ -41,60 +74,29 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d100pnilu1627cdnilvdnilvpnilvunil"] = {
+		["d10221pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN19",
 				},
 			},
-			["name"] = "Target Lock",
-			["removed"] = {
+			["name"] = "Nosewheel Steering ON/OFF",
+		},
+		["d11500pnilu11501cdnilvdnilvpnilvunil"] = {
+			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
 				},
 			},
+			["name"] = "Fire Gun",
 		},
-		["d101pnilunilcdnilvdnilvpnilvunil"] = {
+		["d11502pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN12",
 				},
 			},
-			["name"] = "Weapon Change",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-			},
-		},
-		["d113pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
-			},
-			["name"] = "Cannon",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
-			},
-		},
-		["d136pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN26",
-				},
-			},
-			["name"] = "ECM",
-		},
-		["d1635pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
-			},
-			["name"] = "Return To Search",
+			["name"] = "Fire Weapons",
 		},
 		["d177pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -104,66 +106,29 @@ local diff = {
 			},
 			["name"] = "Zoom normal",
 		},
-		["d285pnilunilcdnilvdnilvpnilvunil"] = {
+		["d3138pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN9",
 				},
 			},
-			["name"] = "Radar RWS/TWS Mode Select",
+			["name"] = "Toggle White Smoke",
 		},
-		["d349pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-			["name"] = "Launch Permission Override",
-		},
-		["d357pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN29",
-				},
-			},
-			["name"] = "Countermeasures Flares Dispense",
-		},
-		["d358pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN27",
-				},
-			},
-			["name"] = "Countermeasures Chaff Dispense",
-		},
-		["d394pnilunilcdnilvdnilvpnilvunil"] = {
+		["d3139pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN11",
 				},
 			},
-			["name"] = "Radar Pulse Repeat Frequency Select",
+			["name"] = "Toggle Color Smoke",
 		},
-		["d562pnilu562cdnilvd1vpnilvu0"] = {
+		["d74pnilu75cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN19",
+					["key"] = "JOY_BTN31",
 				},
 			},
-			["name"] = "Nose Wheel Steering",
-		},
-		["d84pnilu85cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "Weapon Fire",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
+			["name"] = "Wheel Brake On/Off",
 		},
 		["d97pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -172,38 +137,6 @@ local diff = {
 				},
 			},
 			["name"] = "Trim Reset",
-		},
-		["dnilp139u230cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN35",
-				},
-			},
-			["name"] = "Scan Zone Left",
-		},
-		["dnilp140u230cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN32",
-				},
-			},
-			["name"] = "Scan Zone Right",
-		},
-		["dnilp141u230cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN33",
-				},
-			},
-			["name"] = "Scan Zone Up",
-		},
-		["dnilp142u230cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN34",
-				},
-			},
-			["name"] = "Scan Zone Down",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -288,7 +221,7 @@ local diff = {
 		["dnilp95u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN14",
 				},
 			},
 			["name"] = "Trim: Nose Up",
@@ -296,7 +229,7 @@ local diff = {
 		["dnilp96u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "Trim: Nose Down",

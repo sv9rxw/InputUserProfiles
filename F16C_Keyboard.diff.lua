@@ -96,6 +96,14 @@ local diff = {
 				},
 			},
 		},
+		["d269pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "B",
+				},
+			},
+			["name"] = "Request AWACS Bogey Dope",
+		},
 		["d3001pnilu3001cd16vd1vpnilvu0"] = {
 			["name"] = "NWS A/R DISC MSL STEP Button",
 			["removed"] = {
@@ -195,6 +203,22 @@ local diff = {
 				},
 			},
 		},
+		["d3006pnilunilcd11vd0.4vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "W",
+				},
+			},
+			["name"] = "MASTER Switch - NORM",
+		},
+		["d3006pnilunilcd11vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "X",
+				},
+			},
+			["name"] = "MASTER Switch - OFF",
+		},
 		["d3007pnilu3007cd16vd-1vpnilvu0"] = {
 			["name"] = "Display Management Switch - Down",
 			["removed"] = {
@@ -249,6 +273,30 @@ local diff = {
 				},
 			},
 		},
+		["d3008pnilunilcd11vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Z",
+				},
+			},
+			["name"] = "LANDING TAXI LIGHTS Switch - TAXI",
+		},
+		["d3008pnilunilcd11vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "A",
+				},
+			},
+			["name"] = "LANDING TAXI LIGHTS Switch - OFF",
+		},
+		["d3008pnilunilcd11vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Q",
+				},
+			},
+			["name"] = "LANDING TAXI LIGHTS Switch - LANDING",
+		},
 		["d3009pnilu3009cd16vd1vpnilvu0"] = {
 			["name"] = "Display Management Switch - Right",
 			["removed"] = {
@@ -291,6 +339,22 @@ local diff = {
 					},
 				},
 			},
+		},
+		["d3010pnilu3010cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "Y",
+				},
+			},
+			["name"] = "MANUAL PITCH Override Switch - OVRD/NORM",
+		},
+		["d3010pnilunilcd32vd0.2vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "M",
+				},
+			},
+			["name"] = "MODE Knob - MAN",
 		},
 		["d3011pnilu3011cd17vd1vpnilvu0"] = {
 			["added"] = {
@@ -387,6 +451,30 @@ local diff = {
 				},
 			},
 		},
+		["d3017pnilunilcd33vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "R",
+				},
+			},
+			["name"] = "RWR Indicator Control POWER Button - Depressed/Released",
+		},
+		["d3018pnilu3018cd17vd1vpnilvu0"] = {
+			["name"] = "ICP Master Mode Button - A-A",
+			["removed"] = {
+				[1] = {
+					["key"] = "1",
+				},
+			},
+		},
+		["d3019pnilu3019cd17vd1vpnilvu0"] = {
+			["name"] = "ICP Master Mode Button - A-G",
+			["removed"] = {
+				[1] = {
+					["key"] = "2",
+				},
+			},
+		},
 		["d3024pnilunilcd10vd1vpnilvunil"] = {
 			["name"] = "Control Stick - HIDE/SHOW (assist)",
 			["removed"] = {
@@ -470,7 +558,7 @@ local diff = {
 			},
 		},
 		["d3029pnilu3029cd17vd-1vpnilvu0"] = {
-			["name"] = "ICP DRIFT CUTOUT/WARN RESET Switch - WARN RESET /NORM",
+			["name"] = "ICP DRIFT CUTOUT/WARN RESET 3-pos Switch: WARN RESET <>NORM",
 			["removed"] = {
 				[1] = {
 					["key"] = "Num*",
@@ -512,14 +600,6 @@ local diff = {
 				},
 			},
 		},
-		["d3031pnilu3031cd2vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "X",
-				},
-			},
-			["name"] = "Autopilot PITCH Switch - ATT HOLD",
-		},
 		["d3031pnilunilcd16vd0vpnilvunil"] = {
 			["name"] = "SPD BRK Switch - OFF",
 			["removed"] = {
@@ -544,22 +624,6 @@ local diff = {
 				},
 			},
 		},
-		["d3032pnilu3032cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "W",
-				},
-			},
-			["name"] = "Autopilot PITCH Switch - ALT HOLD",
-		},
-		["d3032pnilunilcd2vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "S",
-				},
-			},
-			["name"] = "Autopilot PITCH Switch - A/P OFF",
-		},
 		["d3033pnilu3033cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -575,22 +639,6 @@ local diff = {
 					},
 				},
 			},
-		},
-		["d3033pnilunilcd2vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Z",
-				},
-			},
-			["name"] = "Autopilot ROLL Switch - Down",
-		},
-		["d3033pnilunilcd2vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Q",
-				},
-			},
-			["name"] = "Autopilot ROLL Switch - Up",
 		},
 		["d3034pnilu3034cd17vd1vpnilvu0"] = {
 			["added"] = {
@@ -719,6 +767,14 @@ local diff = {
 					["key"] = "W",
 				},
 			},
+		},
+		["d816pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "P",
+				},
+			},
+			["name"] = "Active Pause",
 		},
 		["d961pnilu962cdnilvdnilvpnilvunil"] = {
 			["name"] = "Wheel Brake Left - ON/OFF",

@@ -65,6 +65,42 @@ local diff = {
 			},
 			["name"] = "Zoom View",
 		},
+		["a2033cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 0.35,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "TDC Slew Horizontal",
+		},
+		["a2034cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 0.35,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "TDC Slew Vertical",
+		},
 	},
 	["keyDiffs"] = {
 		["d100pnilu1627cdnilvdnilvpnilvunil"] = {
@@ -158,7 +194,7 @@ local diff = {
 		["d145pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN61",
+					["key"] = "JOY_BTN64",
 				},
 			},
 			["name"] = "Flaps Landing Position",
@@ -166,7 +202,7 @@ local diff = {
 		["d146pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN62",
+					["key"] = "JOY_BTN37",
 				},
 			},
 			["name"] = "Flaps Up",
@@ -195,14 +231,6 @@ local diff = {
 			},
 			["name"] = "HUD Color",
 		},
-		["d178pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN38",
-				},
-			},
-			["name"] = "Jettison Fuel Tanks",
-		},
 		["d262pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -219,6 +247,78 @@ local diff = {
 			},
 			["name"] = "Predicted Target Range Increase",
 		},
+		["d386pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN41",
+				},
+			},
+			["name"] = "Autopilot - Attitude Hold",
+		},
+		["d387pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN38",
+				},
+			},
+			["name"] = "Autopilot - Damper",
+		},
+		["d388pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN42",
+				},
+			},
+			["name"] = "Autopilot - Transition To Level Flight Control",
+		},
+		["d430pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN69",
+				},
+			},
+			["name"] = "Landing Gear Up",
+		},
+		["d431pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN61",
+				},
+			},
+			["name"] = "Landing Gear Down",
+		},
+		["d571pnilu1557cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+			},
+			["name"] = "Stick Deflection Limiter Override",
+		},
+		["d59pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN40",
+				},
+			},
+			["name"] = "Autopilot - Barometric Altitude Hold 'H'",
+		},
+		["d60pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN39",
+				},
+			},
+			["name"] = "Autopilot - Ground Collision Avoidance",
+		},
+		["d629pnilu629cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN43",
+				},
+			},
+			["name"] = "Autopilot Reset (Stick Button)",
+		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["name"] = "Weapon Fire",
 			["removed"] = {
@@ -227,26 +327,10 @@ local diff = {
 				},
 			},
 		},
-		["d86pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN40",
-				},
-			},
-			["name"] = "Radar On/Off",
-		},
-		["d87pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN39",
-				},
-			},
-			["name"] = "Electro-Optical System On/Off",
-		},
 		["d92pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN13",
 				},
 			},
 			["name"] = "Target Designator To Center",
@@ -330,38 +414,6 @@ local diff = {
 				},
 			},
 			["name"] = "HUD Brightness down",
-		},
-		["dnilp88u235cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "Target Designator Left",
-		},
-		["dnilp89u235cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-				},
-			},
-			["name"] = "Target Designator Right",
-		},
-		["dnilp90u235cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "Target Designator Up",
-		},
-		["dnilp91u235cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "Target Designator Down",
 		},
 	},
 }

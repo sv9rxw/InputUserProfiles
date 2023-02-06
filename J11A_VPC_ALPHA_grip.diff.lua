@@ -1,8 +1,54 @@
 local diff = {
 	["axisDiffs"] = {
+		["a2001cdnil"] = {
+			["changed"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0.01,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "Pitch",
+		},
+		["a2002cdnil"] = {
+			["changed"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0.01,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Roll",
+		},
 		["a2003cdnil"] = {
 			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0.02,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_Z",
 				},
 			},
@@ -24,6 +70,16 @@ local diff = {
 		["a2101cdnil"] = {
 			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
 					["key"] = "JOY_SLIDER1",
 				},
 			},
@@ -73,14 +129,6 @@ local diff = {
 			},
 			["name"] = "ECM",
 		},
-		["d177pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN30",
-				},
-			},
-			["name"] = "Zoom normal",
-		},
 		["d285pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -129,18 +177,13 @@ local diff = {
 			},
 			["name"] = "Nose Wheel Steering",
 		},
-		["d74pnilu75cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN31",
-				},
-			},
-			["name"] = "Wheel Brake On",
-		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
+				},
+				[2] = {
+					["key"] = "JOY_BTN12",
 				},
 			},
 			["name"] = "Weapon Fire",
@@ -157,6 +200,14 @@ local diff = {
 					["key"] = "JOY_BTN3",
 				},
 			},
+		},
+		["d97pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Trim Reset",
 		},
 		["dnilp139u230cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -273,7 +324,7 @@ local diff = {
 		["dnilp95u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "Trim: Nose Up",
@@ -281,7 +332,7 @@ local diff = {
 		["dnilp96u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN14",
 				},
 			},
 			["name"] = "Trim: Nose Down",

@@ -1,11 +1,45 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2003cdnil"] = {
+		["a2001cdnil"] = {
+			["name"] = "Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+		},
+		["a2002cdnil"] = {
+			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
+		["a2004cdnil"] = {
 			["added"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.08,
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_RX",
+				},
+			},
+			["name"] = "Thrust",
+		},
+		["a2012cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
 						},
 						["deadzone"] = 0.03,
 						["invert"] = false,
@@ -16,94 +50,57 @@ local diff = {
 					["key"] = "JOY_Z",
 				},
 			},
-			["name"] = "Rudder",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-		},
-		["a3005cd2"] = {
-			["name"] = "Input.SpitfireLFMkIX.throttle_slider",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
+			["name"] = "Zoom View",
 		},
 	},
 	["keyDiffs"] = {
-		["d177pnilunilcdnilvdnilvpnilvunil"] = {
+		["d145pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN30",
+					["key"] = "JOY_BTN42",
 				},
 			},
-			["name"] = "Zoom normal",
+			["name"] = "Flaps Down",
 		},
-		["d3005pnilu3005cd5vd1vpnilvu0"] = {
+		["d146pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN41",
 				},
 			},
-			["name"] = "Input.SpitfireLFMkIX.trigger_2",
+			["name"] = "Flaps Up",
 		},
-		["d3030pnilu3030cd1vd1vpnilvu0"] = {
+		["d3256pnilunilcd0vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN53",
 				},
 			},
-			["name"] = "Input.SpitfireLFMkIX.trim_elevator_plus",
+			["name"] = "Flashlight",
 		},
-		["d3032pnilu3032cd1vd1vpnilvu0"] = {
+		["d430pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN69",
 				},
 			},
-			["name"] = "Input.SpitfireLFMkIX.trim_elevator_minus",
+			["name"] = "Landing Gear Up",
 		},
-		["d3045pnilu3045cd1vd1vpnilvu0"] = {
+		["d431pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN61",
 				},
 			},
-			["name"] = "Input.SpitfireLFMkIX.trim_rudder_minus",
+			["name"] = "Landing Gear Down",
 		},
-		["d3047pnilu3047cd1vd1vpnilvu0"] = {
+		["d73pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN28",
 				},
 			},
-			["name"] = "Input.SpitfireLFMkIX.trim_rudder_plus",
-		},
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "Input.SpitfireLFMkIX.trigger_1",
-		},
-		["d74pnilu75cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN31",
-				},
-			},
-			["name"] = "Input.SpitfireLFMkIX.wheel_brakes",
-		},
-		["d84pnilu85cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "Input.SpitfireLFMkIX.trigger_0",
+			["name"] = "Airbrake",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -166,14 +163,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},

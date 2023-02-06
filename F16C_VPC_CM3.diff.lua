@@ -74,8 +74,8 @@ local diff = {
 						},
 						["deadzone"] = 0.01,
 						["invert"] = true,
-						["saturationX"] = 0.67,
-						["saturationY"] = 0.67,
+						["saturationX"] = 1,
+						["saturationY"] = 0.7,
 						["slider"] = false,
 					},
 					["key"] = "JOY_Y",
@@ -92,8 +92,8 @@ local diff = {
 						},
 						["deadzone"] = 0.01,
 						["invert"] = false,
-						["saturationX"] = 0.67,
-						["saturationY"] = 0.67,
+						["saturationX"] = 1,
+						["saturationY"] = 0.7,
 						["slider"] = false,
 					},
 					["key"] = "JOY_X",
@@ -242,7 +242,7 @@ local diff = {
 		["d3018pnilu3018cd24vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN33",
+					["key"] = "JOY_BTN9",
 				},
 			},
 			["name"] = "Left MFD OSB 18",
@@ -254,6 +254,22 @@ local diff = {
 				},
 			},
 			["name"] = "ICP Master Mode Button - A-G",
+		},
+		["d3019pnilu3019cd24vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "Left MFD OSB 19",
+		},
+		["d3020pnilu3020cd24vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "Left MFD OSB 20",
 		},
 		["d3029pnilu3029cd16vd1vpnilvu0"] = {
 			["added"] = {
@@ -318,6 +334,22 @@ local diff = {
 				},
 			},
 			["name"] = "Autopilot PITCH Switch - A/P OFF",
+		},
+		["d3038pnilunilcd17vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN64",
+				},
+			},
+			["name"] = "RF Switch - SILENT",
+		},
+		["d3038pnilunilcd17vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN37",
+				},
+			},
+			["name"] = "RF Switch - NORM",
 		},
 		["d3039pnilu3039cd16vd1vpnilvu0"] = {
 			["added"] = {
@@ -426,9 +458,6 @@ local diff = {
 		["dnilp3040unilcd16vdnilvp1vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-				[2] = {
 					["key"] = "JOY_BTN25",
 				},
 			},
@@ -453,9 +482,6 @@ local diff = {
 		["dnilp3041unilcd16vdnilvp-1vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-				[2] = {
 					["key"] = "JOY_BTN23",
 				},
 			},

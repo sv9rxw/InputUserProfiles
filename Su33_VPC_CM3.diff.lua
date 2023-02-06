@@ -86,6 +86,42 @@ local diff = {
 			},
 			["name"] = "Zoom View",
 		},
+		["a2033cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.15,
+						},
+						["deadzone"] = 0.03,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 0.33,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "TDC Slew Horizontal",
+		},
+		["a2034cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.3,
+						},
+						["deadzone"] = 0.01,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 0.4,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "TDC Slew Vertical",
+		},
 	},
 	["keyDiffs"] = {
 		["d101pnilunilcdnilvdnilvpnilvunil"] = {
@@ -275,7 +311,7 @@ local diff = {
 		["d92pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN13",
 				},
 			},
 			["name"] = "Target Designator To Center",
@@ -308,38 +344,6 @@ local diff = {
 				},
 			},
 			["name"] = "HUD Brightness down",
-		},
-		["dnilp88u235cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "Target Designator Left",
-		},
-		["dnilp89u235cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-				},
-			},
-			["name"] = "Target Designator Right",
-		},
-		["dnilp90u235cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "Target Designator Up",
-		},
-		["dnilp91u235cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "Target Designator Down",
 		},
 	},
 }

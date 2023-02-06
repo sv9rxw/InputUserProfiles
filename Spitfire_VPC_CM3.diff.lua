@@ -58,12 +58,30 @@ local diff = {
 					["key"] = "JOY_RY",
 				},
 			},
-			["name"] = "Throttle (analog)",
+			["name"] = "Input.SpitfireLFMkIX.throttle_slider",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
+		},
+		["a3008cd2"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_RX",
+				},
+			},
+			["name"] = "Input.SpitfireLFMkIX.pitch_slider",
 		},
 	},
 	["keyDiffs"] = {
@@ -98,6 +116,38 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
+		},
+		["dnilp3008unilcd5vdnilvp-1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN54",
+				},
+			},
+			["name"] = "Input.SpitfireLFMkIX.gun_sight_range_minus",
+		},
+		["dnilp3008unilcd5vdnilvp1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN55",
+				},
+			},
+			["name"] = "Input.SpitfireLFMkIX.gun_sight_range_plus",
+		},
+		["dnilp3011unilcd5vdnilvp-1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN51",
+				},
+			},
+			["name"] = "Input.SpitfireLFMkIX.gun_sight_span_minus",
+		},
+		["dnilp3011unilcd5vdnilvp1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN52",
+				},
+			},
+			["name"] = "Input.SpitfireLFMkIX.gun_sight_span_plus",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

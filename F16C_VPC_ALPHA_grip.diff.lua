@@ -325,7 +325,7 @@ local diff = {
 		["dnilp95u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN14",
 				},
 			},
 			["name"] = "TRIM Button - NOSE DOWN",
@@ -333,7 +333,7 @@ local diff = {
 		["dnilp96u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "TRIM Button - NOSE UP",

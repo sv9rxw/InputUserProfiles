@@ -1,8 +1,62 @@
 local diff = {
 	["axisDiffs"] = {
+		["a10040cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0.01,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "F-22 FCS Pitch Axis",
+		},
+		["a10058cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_SLIDER1",
+				},
+			},
+			["name"] = "F-22 Wheel Brake Both",
+		},
+		["a2001cdnil"] = {
+			["name"] = "Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+		},
 		["a2003cdnil"] = {
 			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.13,
+						},
+						["deadzone"] = 0.03,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_Z",
 				},
 			},
@@ -21,26 +75,56 @@ local diff = {
 				},
 			},
 		},
-		["a2101cdnil"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
-					["key"] = "JOY_SLIDER1",
-				},
-			},
-			["name"] = "Wheel Brake",
-		},
 	},
 	["keyDiffs"] = {
+		["d10021pnilu10021cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "Weapons: Trigger First Detent",
+		},
+		["d10022pnilu10022cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "Weapons: Trigger Second Detent",
+		},
+		["d10026pnilu10026cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "Weapons: Release",
+		},
+		["d10030pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "FCS Trim: Center",
+		},
+		["d10031pnilu10033cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "FCS Trim: Nose Up",
+		},
+		["d10032pnilu10033cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "FCS Trim: Nose Down",
+		},
 		["d100pnilu1627cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -48,11 +132,6 @@ local diff = {
 				},
 			},
 			["name"] = "Target Lock",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
 		},
 		["d101pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -88,13 +167,13 @@ local diff = {
 			},
 			["name"] = "ECM",
 		},
-		["d1635pnilunilcdnilvdnilvpnilvunil"] = {
+		["d143pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN10",
 				},
 			},
-			["name"] = "Return To Search",
+			["name"] = "Unlock TWS Target",
 		},
 		["d177pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -144,7 +223,7 @@ local diff = {
 			},
 			["name"] = "Radar Pulse Repeat Frequency Select",
 		},
-		["d562pnilu562cdnilvd1vpnilvu0"] = {
+		["d606pnilu606cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN19",
@@ -153,25 +232,12 @@ local diff = {
 			["name"] = "Nose Wheel Steering",
 		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
 			["name"] = "Weapon Fire",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN1",
 				},
 			},
-		},
-		["d97pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "Trim Reset",
 		},
 		["dnilp139u230cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -194,6 +260,9 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN33",
 				},
+				[2] = {
+					["key"] = "JOY_BTN24",
+				},
 			},
 			["name"] = "Scan Zone Up",
 		},
@@ -201,6 +270,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN34",
+				},
+				[2] = {
+					["key"] = "JOY_BTN23",
 				},
 			},
 			["name"] = "Scan Zone Down",
@@ -268,38 +340,6 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
-		},
-		["dnilp93u215cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-				},
-			},
-			["name"] = "Trim: Left Wing Down",
-		},
-		["dnilp94u215cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "Trim: Right Wing Down",
-		},
-		["dnilp95u215cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN16",
-				},
-			},
-			["name"] = "Trim: Nose Up",
-		},
-		["dnilp96u215cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-			},
-			["name"] = "Trim: Nose Down",
 		},
 	},
 }
