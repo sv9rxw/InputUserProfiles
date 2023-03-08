@@ -106,7 +106,7 @@ local diff = {
 		["d3002pnilunilcd19vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN66",
+					["key"] = "JOY_BTN80",
 				},
 			},
 			["name"] = "MASTER ARM Switch - OFF",
@@ -130,7 +130,7 @@ local diff = {
 		["d3004pnilunilcd22vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN65",
+					["key"] = "JOY_BTN81",
 				},
 			},
 			["name"] = "LASER ARM Switch - OFF",
@@ -194,7 +194,7 @@ local diff = {
 		["d3011pnilunilcd2vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN63",
+					["key"] = "JOY_BTN83",
 				},
 			},
 			["name"] = "STORES CONFIG Switch - CAT III",
@@ -338,7 +338,7 @@ local diff = {
 		["d3038pnilunilcd17vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN64",
+					["key"] = "JOY_BTN82",
 				},
 			},
 			["name"] = "RF Switch - SILENT",
@@ -386,7 +386,7 @@ local diff = {
 		["d430pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN62",
+					["key"] = "JOY_BTN88",
 				},
 			},
 			["name"] = "LG Handle - UP",
@@ -394,7 +394,7 @@ local diff = {
 		["d431pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN61",
+					["key"] = "JOY_BTN84",
 				},
 			},
 			["name"] = "LG Handle - DN",

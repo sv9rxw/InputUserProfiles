@@ -62,7 +62,7 @@ local diff = {
 		["d3006pnilu3006cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN33",
+					["key"] = "JOY_BTN32",
 				},
 			},
 			["name"] = "Display Management Switch - Up",
@@ -70,7 +70,7 @@ local diff = {
 		["d3007pnilu3007cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN34",
+					["key"] = "JOY_BTN33",
 				},
 			},
 			["name"] = "Display Management Switch - Down",
@@ -78,7 +78,7 @@ local diff = {
 		["d3008pnilu3008cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN35",
+					["key"] = "JOY_BTN34",
 				},
 			},
 			["name"] = "Display Management Switch - Left",
@@ -86,7 +86,7 @@ local diff = {
 		["d3009pnilu3009cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN32",
+					["key"] = "JOY_BTN35",
 				},
 			},
 			["name"] = "Display Management Switch - Right",
@@ -141,6 +141,14 @@ local diff = {
 				},
 			},
 			["name"] = "Countermeasures Management Switch - Aft",
+		},
+		["d3017pnilu3017cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN26",
+				},
+			},
+			["name"] = "Countermeasures Management Switch - Right",
 		},
 		["d3018pnilu3018cd16vd1vpnilvu0"] = {
 			["added"] = {

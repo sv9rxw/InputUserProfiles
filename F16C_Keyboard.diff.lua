@@ -768,14 +768,6 @@ local diff = {
 				},
 			},
 		},
-		["d816pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "P",
-				},
-			},
-			["name"] = "Active Pause",
-		},
 		["d961pnilu962cdnilvdnilvpnilvunil"] = {
 			["name"] = "Wheel Brake Left - ON/OFF",
 			["removed"] = {
