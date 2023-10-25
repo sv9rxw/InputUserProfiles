@@ -106,7 +106,7 @@ local diff = {
 		["d3002pnilunilcd19vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN80",
+					["key"] = "JOY_BTN66",
 				},
 			},
 			["name"] = "MASTER ARM Switch - OFF",
@@ -130,7 +130,7 @@ local diff = {
 		["d3004pnilunilcd22vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN81",
+					["key"] = "JOY_BTN65",
 				},
 			},
 			["name"] = "LASER ARM Switch - OFF",
@@ -194,7 +194,7 @@ local diff = {
 		["d3011pnilunilcd2vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN83",
+					["key"] = "JOY_BTN63",
 				},
 			},
 			["name"] = "STORES CONFIG Switch - CAT III",
@@ -338,7 +338,7 @@ local diff = {
 		["d3038pnilunilcd17vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN82",
+					["key"] = "JOY_BTN64",
 				},
 			},
 			["name"] = "RF Switch - SILENT",
